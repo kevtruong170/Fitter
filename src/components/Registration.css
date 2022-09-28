@@ -1,0 +1,39 @@
+.registration-container {
+    display:flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 250px;
+    color: black;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color:#fff;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+
+}
+
+.form-body {
+    /* text-align: left; */
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.buttonSubmit {
+    background-color: black;
+    padding:10px;
+    /* width:220px; */
+    color:black;
+    /* text-align:center; */
+    background:red;
+}
+.buttonSubmit:hover {
+    transition: all 0.3s ease-out;
+    background: rgb(121, 119, 119);
+    color: #242424;
+    transition: 250ms;
+  }
