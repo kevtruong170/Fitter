@@ -9,6 +9,7 @@ import {useState} from 'react';
 function HeroSection() {
 
   const [buttonPopUp, setButtonPopUp] = useState(false);
+
   return (
     <div className='hero-container'>
         <video src="/videos/Homepage.mp4" autoPlay loop muted></video>
@@ -32,7 +33,6 @@ function HeroSection() {
 
         <Popup trigger={buttonPopUp} setTrigger ={setButtonPopUp}>
             <video className="video-container" src="/videos/video-1.mp4" autoPlay loop muted></video>
-
         </Popup>
         </div>
     </div>
